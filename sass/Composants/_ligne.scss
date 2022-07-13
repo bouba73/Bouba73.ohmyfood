@@ -1,0 +1,12 @@
+.m1__title {
+    position: relative;
+}
+
+.m1__title::before {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    width: 40px;
+    height: 4px;
+    background-color: $color-tertiary;
+}

@@ -1,0 +1,28 @@
+    .loading {
+        background-color: #4d4d4d;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        animation: quitte 5s forwards;
+        .sible {
+            width: 160px;
+            height: 160px;
+            border-top: 16px solid $color-tertiary;
+            border-right: 16px solid transparent;
+            border-radius: 50%;
+            margin: auto;
+            animation: spinner 5s linear forwards;
+        }
+        .cercle {
+            width: 30px;
+            height: 35px;
+            background-color: aquamarine;
+            border-radius: 50%;
+            margin-left: 140px;
+            margin-top: 10px;
+        }
+    }

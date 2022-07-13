@@ -1,0 +1,19 @@
+.stars {
+    margin-bottom: 22px;
+    i {
+        position: absolute;
+        right: 23px;
+        transition: all 0.2s;
+    }
+    .fas {
+        color: transparent;
+        background-image: linear-gradient($color-primary, $color-secondary);
+        background-clip: text;
+        -webkit-background-clip: text;
+        opacity: 0;
+    }
+    i:hover {
+        opacity: 1;
+        transition: all 0.5s ease-in-out;
+    }
+}

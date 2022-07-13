@@ -1,0 +1,153 @@
+   .header {
+       i {
+           font-weight: 1000;
+       }
+       .header_menu {
+           display: flex;
+       }
+       .fleche {
+           margin-top: 13px;
+           font-size: 25px;
+           margin-right: 45%;
+       }
+   }
+   
+   .image {
+       object-fit: cover;
+       width: 100%;
+       max-width: 2000px;
+       max-height: 550px;
+   }
+   
+   .contente_menu {
+       @include position;
+       z-index: 1;
+       margin-top: -83px;
+       background-color: #f6f6f6;
+       border-radius: 32px 32px 0 0;
+       .item_menu {
+           @include flex;
+           justify-content: space-between;
+           align-items: center;
+           .item_title {
+               justify-content: center;
+               margin-left: 16px;
+               padding-top: 30px;
+           }
+       }
+   }
+   
+   .conteneurs {
+       display: flex;
+       justify-content: space-around;
+       h3 {
+           font-family: $police_logo_texte;
+           text-transform: uppercase;
+           font-weight: 300;
+           padding-bottom: 20px;
+       }
+       .entrees {
+           width: 100%;
+           padding: 0 16px;
+           margin-bottom: 30px;
+           div:nth-child(1n) {
+               animation-fill-mode: both;
+           }
+           .card_entrees {
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+               position: relative;
+               background-color: azure;
+               border-radius: 20px;
+               height: 70px;
+               max-width: 370px;
+               margin-top: 15px;
+               cursor: pointer;
+               box-shadow: $shadow;
+               overflow: hidden;
+               &:hover .animation {
+                   margin-right: 0px;
+                   transition: all 0.5s;
+                   .fa-solid {
+                       transform: rotate(-360deg);
+                       transition: all 0.55s ease;
+                   }
+               }
+           }
+           .m1 {
+               display: block;
+               position: relative;
+               height: 80%;
+               width: 100%;
+               padding: 0 10px;
+               overflow: hidden;
+               .descreption__title {
+                   margin: 0;
+                   padding: 0;
+                   font-weight: 900;
+                   overflow: hidden;
+                   white-space: nowrap;
+                   text-overflow: ellipsis;
+               }
+           }
+       }
+   }
+   
+   .m1_descreption {
+       display: flex;
+       justify-content: space-between;
+       align-items: flex-end;
+       height: 40px;
+       overflow: hidden;
+       white-space: nowrap;
+       text-overflow: ellipsis;
+       .descreption__ingredient {
+           overflow: hidden;
+           white-space: nowrap;
+           text-overflow: ellipsis;
+       }
+       .prix {
+           font-weight: 700;
+       }
+   }
+   
+   .animation {
+       display: flex;
+       text-align: center;
+       justify-content: center;
+       align-items: center;
+       background-color: aquamarine;
+       width: 55px;
+       height: 100%;
+       border-radius: 0px 20px 20px 0px;
+       margin-right: -53px;
+   }
+   
+   .fa-solid {
+       background-color: aquamarine;
+       color: white;
+       font-size: 25px;
+       transform: rotate(360deg);
+   }
+   
+   .plats {
+       width: 100%;
+       padding: 0 16px;
+   }
+   
+   .desserts {
+       width: 100%;
+       padding: 0 16px;
+   }
+   
+   .btn_position {
+       text-align: center;
+       align-items: center;
+       margin-bottom: 40px;
+       padding-bottom: 30px;
+   }
+   
+   .marge__footer {
+       margin-left: 3px;
+   }

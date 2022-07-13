@@ -1,0 +1,20 @@
+    @mixin logo {
+        margin: 0;
+        text-align: center;
+    }
+    
+    @mixin flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    @mixin degrade_color {
+        background: linear-gradient($color-secondary, $color-primary);
+    }
+    
+    @mixin position {
+        max-width: 1200px;
+        margin: auto;
+        position: relative;
+    }

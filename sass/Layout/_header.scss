@@ -1,0 +1,10 @@
+.header {
+    padding: 16px;
+    box-shadow: $shadow;
+    position: relative;
+    z-index: 1000;
+    .logo {
+        @include logo;
+        font-size: 31px;
+    }
+}

@@ -1,0 +1,26 @@
+@keyframes quitte {
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes spinner {
+    0% {
+        transform: scale(0deg);
+        opacity: 0;
+    }
+    100% {
+        transform: rotate(360deg);
+        opacity: 1;
+        visibility: hidden;
+    }
+}
+
+@keyframes slide {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

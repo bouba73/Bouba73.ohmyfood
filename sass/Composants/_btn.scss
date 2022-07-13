@@ -1,0 +1,12 @@
+.description__btn {
+    padding: 16px 32px;
+    font-size: 13px;
+    color: #fff;
+    border-color: rgb(251, 251, 251);
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.5s;
+    @include degrade_color;
+    box-shadow: $shadow;
+    margin-bottom: 20px;
+}
