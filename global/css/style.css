@@ -183,8 +183,8 @@ ul {
 
 .footer {
   background-color: #353535;
+  max-width: 100%;
   height: 100%;
-  margin: 0px;
   padding: 0px;
 }
 .footer .footer__logo {
@@ -194,19 +194,25 @@ ul {
   padding-top: 20px;
   color: white;
   font-size: 48px;
+  margin: 0;
 }
 .footer .bloc__footer {
-  max-width: 1200px;
-  margin: auto;
-  position: relative;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   height: 100px;
+  margin: 0px;
+  padding-left: 130px;
+  padding-right: 130px;
+  font-size: 19px;
+  max-width: 1800px;
 }
-.footer .bloc__footer .footer__service {
+
+.footer__service {
   color: white;
 }
-.footer .bloc__footer .service__icon {
+
+.service__icon {
   margin-right: 10px;
 }
 
@@ -368,7 +374,7 @@ ol li::before {
   margin: 0px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 9503px) {
   .demarrage {
     flex-direction: column;
   }
@@ -414,7 +420,7 @@ ol li::before {
 .contente_menu .item_menu .item_title {
   justify-content: center;
   margin-left: 16px;
-  padding-top: 30px;
+  padding-top: 5px;
 }
 
 .conteneurs {
@@ -532,35 +538,6 @@ ol li::before {
   margin-left: 3px;
 }
 
-.footer {
-  background-color: #353535;
-  max-width: 100%;
-  height: 100%;
-  padding: 0px;
-}
-.footer .footer__logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 20px;
-  color: white;
-  font-size: 48px;
-}
-.footer .bloc__footer {
-  justify-content: space-between;
-  height: 100px;
-  font-size: 19px;
-  max-width: 677px;
-}
-
-.footer__service {
-  color: white;
-}
-
-.service__icon {
-  margin-right: 10px;
-}
-
 @media (max-width: 1090px) {
   .header .fleche {
     margin-right: 38%;
@@ -595,7 +572,7 @@ ol li::before {
 }
 @media (max-width: 700px) {
   .header .fleche {
-    margin-right: 30%;
+    margin-right: 22%;
   }
   .cards {
     flex-direction: column;
@@ -615,14 +592,11 @@ ol li::before {
     margin: 0px;
     padding-left: 28px;
     padding-bottom: 67px;
+    padding-right: 0px;
+    margin-top: 20px;
   }
   .footer .footer__item {
     margin-bottom: 10px;
-  }
-}
-@media (max-width: 700px) {
-  .header .fleche {
-    margin-right: 17%;
   }
 }
 

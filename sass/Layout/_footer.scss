@@ -8,12 +8,18 @@
         padding-top: 20px;
         color: white;
         font-size: 48px;
+        margin: 0;
     }
     .bloc__footer {
+        display: flex;
+        align-items: center;
         justify-content: space-between;
         height: 100px;
+        margin: 0px;
+        padding-left: 130px;
+        padding-right: 130px;
         font-size: 19px;
-        max-width: 600px;
+        max-width: 1800px;
     }
 }
 
