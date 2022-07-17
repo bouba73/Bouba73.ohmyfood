@@ -125,7 +125,8 @@ ul {
   transition: 0.5s;
   background: linear-gradient(#f46acd, #9356DC);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 #one {
@@ -324,6 +325,7 @@ ol li::before {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding: 30px;
   margin-bottom: 20px;
 }
 .cards .card {
@@ -576,8 +578,12 @@ ol li::before {
   }
   .cards {
     flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 55px;
   }
   .cards .card {
     width: 100%;
