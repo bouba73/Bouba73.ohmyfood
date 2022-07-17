@@ -99,6 +99,7 @@ ol {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 20px;
     .card {
         width: 45%;
         max-height: 20%;
@@ -146,7 +147,7 @@ ol {
     }
 }
 
-@media (max-width: 9503px) {
+@media (max-width: 950px) {
     .demarrage {
         flex-direction: column;
         .demarrage_item {

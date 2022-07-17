@@ -5,7 +5,6 @@
 }
 @keyframes spinner {
   0% {
-    transform: scale(0deg);
     opacity: 0;
   }
   100% {
@@ -325,6 +324,7 @@ ol li::before {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 .cards .card {
   width: 45%;
@@ -374,7 +374,7 @@ ol li::before {
   margin: 0px;
 }
 
-@media (max-width: 9503px) {
+@media (max-width: 950px) {
   .demarrage {
     flex-direction: column;
   }
@@ -582,6 +582,14 @@ ol li::before {
   .cards .card {
     width: 100%;
   }
+  .restaurants {
+    margin-bottom: 0px;
+  }
+  .btn_position {
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 492px) {
   .footer .footer__logo {
     justify-content: flex-start;
     margin-left: 28px;
