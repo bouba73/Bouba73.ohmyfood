@@ -178,7 +178,7 @@ ul {
 .header .logo {
   margin: 0;
   text-align: center;
-  font-size: 31px;
+  font-size: 38px;
 }
 
 .footer {
@@ -231,6 +231,9 @@ ul {
 .loc .localisation {
   font-size: 19px;
   margin-left: 18px;
+  border: blanchedalmond;
+  background-color: #f3f3f3;
+  margin-right: -30px;
 }
 
 .description {
