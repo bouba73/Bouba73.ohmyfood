@@ -7,7 +7,7 @@
         display: flex;
         text-align: center;
         justify-content: center;
-        animation: quitte 5s forwards;
+        animation: quitte 3s forwards;
         .sible {
             width: 160px;
             height: 160px;
@@ -15,7 +15,7 @@
             border-right: 16px solid transparent;
             border-radius: 50%;
             margin: auto;
-            animation: spinner 5s linear forwards;
+            animation: spinner 3s linear forwards;
         }
         .cercle {
             width: 30px;

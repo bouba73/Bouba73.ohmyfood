@@ -62,7 +62,7 @@ ul {
   display: flex;
   text-align: center;
   justify-content: center;
-  animation: quitte 5s forwards;
+  animation: quitte 3s forwards;
 }
 .loading .sible {
   width: 160px;
@@ -71,7 +71,7 @@ ul {
   border-right: 16px solid transparent;
   border-radius: 50%;
   margin: auto;
-  animation: spinner 5s linear forwards;
+  animation: spinner 3s linear forwards;
 }
 .loading .cercle {
   width: 30px;
@@ -235,10 +235,11 @@ ul {
 }
 .loc .localisation {
   font-size: 19px;
-  margin-left: 18px;
+  margin-left: 9px;
   border: blanchedalmond;
   background-color: #f3f3f3;
-  margin-right: -30px;
+  margin-right: -56px;
+  font-weight: 900;
 }
 
 .description {
